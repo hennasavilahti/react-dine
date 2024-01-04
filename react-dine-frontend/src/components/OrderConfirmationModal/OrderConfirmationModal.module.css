@@ -1,0 +1,12 @@
+.title,
+.label {
+  color: #e38e58;
+  margin-bottom: 1rem;
+}
+
+.modal {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

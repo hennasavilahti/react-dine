@@ -1,0 +1,37 @@
+.logo_image {
+  height: 90px;
+  margin-left: 20px;
+}
+
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px 0 #27272761;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 10px;
+}
+
+header li a {
+  color: #ff914d;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  color: #c46e38;
+}

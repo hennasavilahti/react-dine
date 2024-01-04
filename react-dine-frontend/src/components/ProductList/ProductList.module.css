@@ -1,0 +1,8 @@
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100rem;
+  margin-top: 1rem;
+  list-style-type: none;
+  justify-content: center;
+}

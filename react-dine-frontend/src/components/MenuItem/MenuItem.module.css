@@ -1,0 +1,38 @@
+.list_item {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10px 10px 0;
+  padding: 1rem;
+  height: 33rem;
+  max-width: 20rem;
+  border-radius: 3px;
+  background-color: #d6824dbe;
+  box-shadow: 0 0 5px 0 #2727273c;
+}
+
+.image {
+  max-height: 20rem;
+}
+
+.price,
+.description {
+  margin: 0 0 5px 0;
+}
+
+.button {
+  width: 100%;
+  color: #8d5633;
+  font-weight: 600;
+  background-color: #fffcfa;
+}
+
+.button:hover {
+  border: solid 1px #d6824d;
+}
+
+.button:active {
+  transform: translateY(1px);
+}

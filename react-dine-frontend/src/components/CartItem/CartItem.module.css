@@ -1,0 +1,52 @@
+.list_item {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem;
+  min-width: 50rem;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  background-color: #d6824dbe;
+  box-shadow: 0 0 5px 0 #27272750;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.description {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.quantity {
+  font-size: 2rem;
+}
+
+.button_divs_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quantity_buttons,
+.remove_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.button {
+  color: #8d5633;
+  background-color: #fffcfa;
+}
+
+.button:hover {
+  border: solid 1px #d6824d;
+}
+
+.button:active {
+  transform: translateY(1px);
+}

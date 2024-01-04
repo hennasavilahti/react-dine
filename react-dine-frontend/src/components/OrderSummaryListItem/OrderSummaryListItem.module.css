@@ -1,0 +1,10 @@
+.list_item {
+  display: flex;
+  gap: 20px;
+  padding: 7px;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  background-color: #d6824dbe;
+  box-shadow: 0 0 5px 0 #27272750;
+}
